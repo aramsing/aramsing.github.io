@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/aramsing/aramsing.github.io/', // This sets the base path for the project
+  base: '/', // This sets the base path for the project
 })
