@@ -1,18 +1,11 @@
 import './App.css'
-import React from 'react';
-import Home from './components/Home';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Contact from './components/Contact';
 
 export default function App() {
   return (
-    <React.StrictMode>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact-me" element={<Contact />} />
-        </Routes>
-      </BrowserRouter>
-    </React.StrictMode>
+    <>
+      <h2>Hi, I'm Arjun Ramsinghani</h2>
+      <img src="./src/assets/1707169444707.jpg" alt="Arjun Ramsinghani at the Texas Tech Engineering Job Fair"/>
+      <p>Welcome to my website! I am a Software Engineer at USAA.</p>
+    </>
   )
 }
